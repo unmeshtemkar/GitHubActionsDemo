@@ -1,4 +1,4 @@
-name: reusable workflow Demo
+name: Workflow 2
 run-name: ${{ github.actor }} is testing reusable workflow feature of GitHub Actions 🚀
 on: [push]
 jobs:
