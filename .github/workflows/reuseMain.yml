@@ -2,5 +2,4 @@ name: Workflow 2
 run-name: ${{ github.actor }} is testing reusable workflow feature of GitHub Actions 🚀
 on: [push]
 jobs:
-  call-workflow-2-in-local-repo:
-    uses: ./.github/workflows/main.yml
+  uses: ./.github/workflows/main.yml
