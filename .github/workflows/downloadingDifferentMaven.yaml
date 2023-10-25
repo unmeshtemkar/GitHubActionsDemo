@@ -15,7 +15,7 @@ jobs:
       - name: Setup Maven Action
         uses: s4u/setup-maven-action@1.10.0
         with:
-          java-version: 8
+          java-version: 17
           maven-version: ${{ matrix.maven }}
 
       - run: mvn -V ...
