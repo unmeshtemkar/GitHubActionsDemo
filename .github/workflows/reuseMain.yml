@@ -1,6 +1,6 @@
 name: Workflow 2
 run-name: ${{ github.actor }} is testing reusable workflow feature of GitHub Actions 🚀
-on: [push]
+on: [workflow_dispatch]
 jobs:
   call-main-ymal-file:
     uses: ./.github/workflows/main.yml
