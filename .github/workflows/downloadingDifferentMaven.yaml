@@ -6,7 +6,7 @@ jobs:
 
     strategy:
       matrix:
-        maven: [ '3.8.8', '3.9.4', '3.9.5' ]
+        maven: [ '3.8.8', '3.9.4', '3.9.5', '3.6.3' ]
 
     name: Maven ${{ matrix.maven }} sample
 
