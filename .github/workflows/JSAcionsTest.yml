@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: JS action call
-        uses: unmeshtemkar/JSActionWithoutNodeModule@v1.0
+        uses: unmeshtemkar/JSActionWithoutNodeModule@9df4bbef84e6516337483fc9b79277996aadb49d
         with:
           who-to-greet: 'Unmesh'
