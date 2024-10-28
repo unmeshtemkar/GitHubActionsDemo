@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: JS action call
-        uses: unmeshtemkar/JSActionWithoutNodeModule@d16cc29bb4d81176500cbe05cab7162a0491e2db
+        uses: unmeshtemkar/JSActionWithoutNodeModule@68bdea45dbf9f15bb4a130ac31e73257b896a8b0
         with:
-          who-to-greet: 'Testing with normal index.js and node_modules directory"'
+          who-to-greet: 'Testing with normal index.js and removed node_modules directory"'
