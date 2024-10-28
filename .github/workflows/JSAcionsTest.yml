@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: JS action call
-          uses: unmeshtemkar/github_actions_versioning@1.0.3
+          uses: unmeshtemkar/github_actions_versioning@V1.0.3
           with:
             who-to-greet: 'Unmesh'
