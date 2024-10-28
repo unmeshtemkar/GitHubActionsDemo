@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: JS action call
-        uses: unmeshtemkar/JSActionWithoutNodeModule@0865851ea68f53c07fc9d37255f4fc99dd498ab3
+        uses: unmeshtemkar/JSActionWithoutNodeModule@d16cc29bb4d81176500cbe05cab7162a0491e2db
         with:
-          who-to-greet: 'Testing with index.js from dist package created using vercel ncc"'
+          who-to-greet: 'Testing with normal index.js and node_modules directory"'
