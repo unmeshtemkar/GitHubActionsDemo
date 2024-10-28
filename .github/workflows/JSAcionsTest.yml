@@ -1,0 +1,13 @@
+name: javascript actions test
+run-name: javascript actions test
+
+on: workflow_dispatch
+
+jobs:
+  GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      uses: unmeshtemkar/github_actions_versioning@37d49d68aa41a969781abc1e53381b6ea4c6904a
+
+      with:
+        who-to-greet: 'Unmesh'

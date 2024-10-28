@@ -1,9 +1,0 @@
-name: Workflow 1
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-# on: [push]
-on: [workflow_call, workflow_dispatch]
-jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "This is from main.yaml file"
