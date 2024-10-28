@@ -8,7 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: JS action call
-        uses: unmeshtemkar/JSActionWithoutNodeModule@68bdea45dbf9f15bb4a130ac31e73257b896a8b0
-        with:
-          who-to-greet: 'Testing with normal index.js and removed node_modules directory"'
+      - name: JS action call 1
+        uses: unmeshtemkar/two_actions_one_repo/act_1@main
+
+      - name: JS action call 2
+        uses: unmeshtemkar/two_actions_one_repo/act_2@main
+
+      - name: JS action call 3
+        uses: unmeshtemkar/two_actions_one_repo/act_3@main
