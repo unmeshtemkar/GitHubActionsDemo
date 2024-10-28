@@ -11,4 +11,4 @@ jobs:
       - name: JS action call
         uses: unmeshtemkar/JSActionWithoutNodeModule@0865851ea68f53c07fc9d37255f4fc99dd498ab3
         with:
-          who-to-greet: 'Unmesh'
+          who-to-greet: 'Testing with index.js from dist package created using vercel ncc"'
