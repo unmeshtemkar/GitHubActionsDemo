@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - name: JS action call
-        uses: unmeshtemkar/github_actions_versioning@main
+        uses: unmeshtemkar/JSActionWithoutNodeModule@v1.0
         with:
           who-to-greet: 'Unmesh'
