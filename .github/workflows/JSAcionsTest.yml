@@ -16,3 +16,6 @@ jobs:
 
       - name: JS action call 3
         uses: unmeshtemkar/two_actions_one_repo/act_3@main
+
+      - name: JS action call 4
+        uses: unmeshtemkar/two_actions_one_repo/act_4@main
