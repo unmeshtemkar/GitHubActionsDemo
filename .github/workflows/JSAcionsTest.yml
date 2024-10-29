@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: JS action call 1
-        uses: unmeshtemkar/two_actions_one_repo/act_1@main
+      - name: JS action call 2
+        uses: unmeshtemkar/two_actions_one_repo/act_2@main
 
 #      - name: JS action call 2
 #        uses: unmeshtemkar/two_actions_one_repo/act_2@main
